@@ -24,7 +24,7 @@ app.get('/', async (req, res) => {
         const response = await needle('get', endpointUrl, params, {
             headers: {
                 "User-Agent": "v2RecentSearchJS",
-                "authorization": `Bearer ${'AAAAAAAAAAAAAAAAAAAAAAPPhQEAAAAAaoj4BBhu3l8FBzRDnU1WCCKB6us%3D7qNTh76gutoHPS5ZMl75gmzxjgxYRzu6QWHc5uQvrOMSQ5riJe'}`
+                "authorization": `Bearer ${'Token'}`
             }
         })
     
